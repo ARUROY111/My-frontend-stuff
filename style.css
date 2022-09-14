@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    background-image:url("https://free4kwallpapers.com/uploads/originals/2016/05/15/pizzajust-pizzajust-awesome.-wallpaper_.jpg") ;
+    background-size: cover;
+    
+}
+
+.content{
+background-color: rgb(255, 255, 255);
+opacity: 0.7;
+width: 500px;
+margin: 30px auto;
+padding: 30px 0px;
+border-radius: 10px;
+font-weight: 200;
+}
+    
+#code{
+    width: 30px;
+}   
