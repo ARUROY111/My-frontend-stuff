@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form with Validation</title>
+</head>
+<body>  
+
+    <div class="content">
+    <h2> Pizza Order !!</h2>
+    <form>
+        
+    <div class="first">
+        <div class="name" >
+            <label for="Name">Name :</label>
+            <input name="name" type="text" id ="name" required>
+        </div>
+    <br><br>
+
+    <div class="email">
+        <label for="email">Email ID :</label>
+        <input name="email" type="email" id="email" required>
+    </div><br><br>
+
+    <div class="phNo">
+
+        <label for="phNo">Phone Number :</label>
+        <input name="91" value="+91" disabled id="code">
+        <input id="phone" name="phoneNo" type="number" required>
+
+    </div><br><br>
+    </div>
+
+    <div class="pizza"  >
+    <label for="pizza">Pizza :</label>
+    <input type="radio" name="same" value="Simply Veg" >Simply Veg
+    <input type="radio" name="same" value="Veg Supreme">Veg Supreme
+    <input type="radio" name="same" value="Veg Delight">Veg Delight
+    </div>
+    <br><br>
+
+    <div class="pizzaSize"  >
+        <label for="psize">Pizza Size :</label>
+        <input type="radio" name="same2" value="Personal Pan">Personal Pan
+        <input type="radio" name="same2" value="Medium">Medium
+        <input type="radio" name="same2" value="Large">Large
+    </div>
+    <br><br>
+
+    <div class="crust"  >
+        <label value="">Crust :</label>
+        <input type="radio" name="same3" value="Thin">Thin
+        <input type="radio" name="same3" value="Normal">Normal
+        <input type="radio" name="same3" value="Special">Special
+    </div>
+    <br><br>
+
+<label value="">Payment :</label>
+    <select name="payment" id="payment"  required>
+        <option value="">Select a Payment Option</option>
+        <option value="cod">Cash On Delivery</option>
+        <option value="Credit">Credit Card</option>
+        <option value="Debit">Debit Card</option>
+        <option value="Paytm">Paytm</option>
+
+    </select>
+    <br><br>
+
+    <div class="discount">
+        <label for="discount">Discount Code :</label>
+        <input name="discount" type="text" id="discount">
+    </div>
+<br><br>
+
+<input type="checkbox" id="agree" value="agree" required>
+I Agree to all the <strong>Terms & Conditions</strong>
+
+
+<br><br>
+
+
+
+<button type="submit" id="btn">Submit</button>
+    
+</form>
+<br>
+<button onclick="viewDetails()">View Details</button>
+<p id="view"></p>
+
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
