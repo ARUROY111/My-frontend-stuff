@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Vertical Drop-Down Navigation using HTML & CSS</title>
+<style type="text/css">
+* {padding:0; margin:0;}
+a {text-decoration: none;}
+li {list-style: none;}
+/* Navigation STyling */
+.main-nav {width: 250px; background: rgb(157, 201, 197);}
+.main-nav a {
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	color: #FFF;
+	display: block;
+	padding: 10px 0 10px 20px;
+	border-bottom: 1px dotted rgb(197, 141, 141);
+}
+.main-nav a:hover {background: rgb(114, 212, 207);}
+.main-nav-ul ul {display: none;}
+.main-nav-ul li:hover ul {display: block;}
+
+
+</style>
+</head>
+
+<body>
+
+<nav class="main-nav">
+	<ul class="main-nav-ul">
+
+      <li><a href="#">Data Science<span class="sub-arrow"></span></a>
+      	<ul>
+         	<li><a href="#">R</a></li>
+            <li><a href="#">Python</a></li>
+            <li><a href="#">SAS</a></li>
+         </ul>
+      </li>
+
+      <li><a href="#">Programming<span class="sub-arrow"></span></a>
+
+      <ul>
+        <li><a href="#">C</a></li>
+       <li><a href="#">C++</a></li>
+       <li><a href="#">Java </a></li>
+       <li><a href="#">Angular Js</a></li>
+     </ul>
+     </li>
+
+      <li><a href="#">Data Analytics<span class="sub-arrow"></span></a>
+      
+        <ul>
+            <li><a href="#">Statistics</a></li>
+           <li><a href="#">Numpy</a></li>
+           <li><a href="#">Pandas</a></li>
+           <li><a href="#">Matplotlib</a></li>
+           <li><a href="#">Seaborn</a></li>
+           <li><a href="#">SciPy</a></li>
+         </ul>
+
+    </li>
+      <li><a href="#">HTML<span class="sub-arrow"></span></a>
+
+        <ul>
+            <li><a href="#">Simple</a></li>
+           <li><a href="#">Medium</a></li>
+           <li><a href="#">Hard </a></li>
+         </ul>
+    
+    </li>
+    <li><a href="#">CSS<span class="sub-arrow"></span></a>
+
+        <ul>
+            <li><a href="#">Simple</a></li>
+           <li><a href="#">Medium</a></li>
+           <li><a href="#">Hard </a></li>
+         </ul>
+    
+    </li>
+    <li><a href="#">Javascript<span class="sub-arrow"></span></a>
+
+        <ul>
+            <li><a href="#">Simple</a></li>
+           <li><a href="#">Medium</a></li>
+           <li><a href="#">Hard </a></li>
+         </ul>
+    
+    </li>
+   </ul>
+</nav>
+
+</body>
+</html>
